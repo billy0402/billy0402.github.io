@@ -1,0 +1,72 @@
+/* lighten */
+.cyan .lighten-5 {
+    color: #e0f7fa;
+    background-color: #e0f7fa;
+}
+
+.cyan .lighten-4 {
+    color: #b2ebf2;
+    background-color: #b2ebf2;
+}
+
+.cyan .lighten-3 {
+    color: #80deea;
+    background-color: #80deea;
+}
+
+.cyan .lighten-2 {
+    color: #4dd0e1;
+    background-color: #4dd0e1;
+}
+
+.cyan .lighten-1 {
+    color: #26c6da;
+    background-color: #26c6da;
+}
+
+.cyan {
+    color: #00bcd4;
+    background-color: #00bcd4;
+}
+
+/* darken */
+.cyan .darken-1 {
+    color: #00acc1;
+    background-color: #00acc1;
+}
+
+.cyan .darken-2 {
+    color: #0097a7;
+    background-color: #0097a7;
+}
+
+.cyan .darken-3 {
+    color: #00838f;
+    background-color: #00838f;
+}
+
+.cyan .darken-4 {
+    color: #006064;
+    background-color: #006064;
+}
+
+/* accent */
+.cyan .accent-1 {
+    color: #84ffff;
+    background-color: #84ffff;
+}
+
+.cyan .accent-2 {
+    color: #18ffff;
+    background-color: #18ffff;
+}
+
+.cyan .accent-3 {
+    color: #00e5ff;
+    background-color: #00e5ff;
+}
+
+.cyan .accent-4 {
+    color: #00b8d4;
+    background-color: #00b8d4;
+}
