@@ -25,6 +25,8 @@
 
 // 結構 (Layout)
 @import 'layout/body';
+@import 'layout/navigation';
+@import 'layout/footer';
 
 // 格線 (Grid)
 @import 'grid/row';
@@ -38,6 +40,7 @@
 
 // 組件 (Component)
 @import 'components/block-items';
+@import 'components/logo';
 
 // 恥辱 (Shame)
 @import 'shame';

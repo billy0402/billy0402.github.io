@@ -1,0 +1,11 @@
+.logo {
+  color: $color-grey-50;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $size-8;
+  font-family: 'Oswald', sans-serif;
+
+  @include pad-under-width() {
+    font-size: $size-5;
+  }
+}

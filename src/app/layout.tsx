@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
 
-import { Inter } from 'next/font/google';
-
+import Footer from '@/components/Layout/Footer';
+import Navigation from '@/components/Layout/Navigation';
 import '@/styles/globals.scss';
-
-const inter = Inter({ subsets: ['latin'] });
 
 type Props = Readonly<{
   children: React.ReactNode;
@@ -13,7 +11,11 @@ type Props = Readonly<{
 const RootLayout = ({ children }: Props) => {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 };
