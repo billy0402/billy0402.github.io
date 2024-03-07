@@ -1,0 +1,28 @@
+.post-item {
+  background-color: $color-grey-800;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  a {
+    color: $color-grey-100;
+  }
+
+  &__content {
+    padding: $size-4;
+
+    h3 {
+      margin: $size-2 0;
+      color: $color-grey-100;
+      font-size: $size-6;
+    }
+
+    time {
+      color: $color-grey-300;
+      font-style: italic;
+    }
+
+    p {
+      line-height: $size-6;
+    }
+  }
+}

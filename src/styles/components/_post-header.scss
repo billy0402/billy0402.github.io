@@ -1,0 +1,36 @@
+.post-header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: $size-8 0;
+  padding-bottom: $size-8;
+  border-bottom: 8px solid $color-primary-100;
+
+  gap: 1rem;
+  @include pad-under-width() {
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: $size-4 0;
+  }
+
+  h1 {
+    margin: 0;
+    color: $color-primary-500;
+    text-align: left;
+    font-size: $size-16;
+    line-height: initial;
+
+    @include pad-under-width() {
+      text-align: center;
+      font-size: $size-8;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: 120px;
+
+    object-fit: cover;
+  }
+}

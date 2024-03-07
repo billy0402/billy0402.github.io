@@ -1,0 +1,24 @@
+.post-detail {
+  margin: $size-8 auto;
+  padding: $size-8;
+  max-width: 60rem;
+  width: 95%;
+  border-radius: 6px;
+  background-color: $color-grey-100;
+  font-size: $size-5;
+  line-height: $size-8;
+
+  @include pad-under-width() {
+    padding: $size-4;
+  }
+
+  p {
+    color: $color-grey-800;
+  }
+
+  &__image {
+    margin: $size-4 auto;
+    max-width: 600px;
+    width: 100%;
+  }
+}
