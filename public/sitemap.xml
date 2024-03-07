@@ -7,13 +7,25 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://billy0402.github.io</loc>
-        <lastmod>2024-03-07T09:31:03.351Z</lastmod>
+        <lastmod>2024-03-07T09:31:46.313Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://billy0402.github.io/contact</loc>
-        <lastmod>2024-03-07T09:31:03.352Z</lastmod>
+        <lastmod>2024-03-07T09:31:46.314Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://billy0402.github.io/posts</loc>
+        <lastmod>2024-03-07T09:31:46.314Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://billy0402.github.io/posts/first-post</loc>
+        <lastmod>2024-03-07T09:31:46.314Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
