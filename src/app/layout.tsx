@@ -2,6 +2,14 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/Layout/Footer';
 import Navigation from '@/components/Layout/Navigation';
+import {
+  seoDescription,
+  seoFavoriteIcon,
+  seoKeywords,
+  seoSocialPreviewImage,
+  seoTitle,
+  seoUrl,
+} from '@/fixtures/seo';
 import '@/styles/globals.scss';
 
 type Props = Readonly<{
@@ -21,8 +29,34 @@ const RootLayout = ({ children }: Props) => {
 };
 
 export const metadata: Metadata = {
-  title: 'Billy Huang',
-  description: 'A software engineer from Taiwan.',
+  metadataBase: new URL(seoUrl),
+  title: seoTitle,
+  description: seoDescription,
+  keywords: seoKeywords,
+  icons: {
+    shortcut: seoFavoriteIcon,
+    icon: seoFavoriteIcon,
+    apple: seoFavoriteIcon,
+    other: {
+      rel: 'bookmark',
+      url: seoFavoriteIcon,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    url: seoUrl,
+    title: seoTitle,
+    description: seoDescription,
+    images: [seoSocialPreviewImage],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    // @ts-ignore
+    url: seoUrl,
+    title: seoTitle,
+    description: seoDescription,
+    image: seoSocialPreviewImage,
+  },
 };
 
 export default RootLayout;
