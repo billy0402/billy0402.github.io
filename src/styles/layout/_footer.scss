@@ -1,4 +1,6 @@
 .footer {
+  background-color: $color_auxiliary-light;
+  color: $color_white;
   opacity: 0.9;
 
   @include phone-width() {

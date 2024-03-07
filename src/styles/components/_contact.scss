@@ -1,0 +1,16 @@
+.contact {
+  @extend %flex-row-wrap;
+
+  > section {
+    flex: 1;
+
+    @include phone-width() {
+      flex-basis: 100%;
+      margin-top: $margin_small;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

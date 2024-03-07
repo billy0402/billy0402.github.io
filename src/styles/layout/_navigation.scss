@@ -33,6 +33,7 @@
       &:active,
       &.active {
         color: $color-grey-200;
+        text-decoration: underline;
 
         @include pad-under-width() {
           font-size: $size-4;

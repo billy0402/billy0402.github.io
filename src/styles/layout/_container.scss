@@ -1,0 +1,6 @@
+.container {
+  padding-top: $padding_big;
+  padding-bottom: $padding_big;
+
+  @extend %layout-container;
+}

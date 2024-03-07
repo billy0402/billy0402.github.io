@@ -8,7 +8,7 @@ const Navigation = () => {
       <Link href='/'>
         <Logo />
       </Link>
-      {/* <nav>
+      <nav>
         <ul>
           <li>
             <Link href='/post'>Posts</Link>
@@ -17,7 +17,7 @@ const Navigation = () => {
             <Link href='/contact'>Contact</Link>
           </li>
         </ul>
-      </nav> */}
+      </nav>
     </header>
   );
 };
