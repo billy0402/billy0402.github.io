@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { socialLinks } from '@/fixtures/social-links';
+import imgAvatar from '@/public/images/avatar.jpg';
 
 const ContactPage: NextPage = () => {
   return (
@@ -25,7 +26,7 @@ const ContactPage: NextPage = () => {
           ))}
         </section>
         <section className='image-container'>
-          <Image src='/images/home/avatar.jpg' alt='avatar' fill />
+          <Image src={imgAvatar} alt='avatar' fill />
         </section>
       </article>
     </main>

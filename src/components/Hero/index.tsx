@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import imgAvatar from '@/public/images/home/avatar.jpg';
+import imgAvatar from '@/public/images/avatar.jpg';
 
 const Hero = () => {
   return (
