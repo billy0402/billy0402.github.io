@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   title: seoTitle,
   description: seoDescription,
   keywords: seoKeywords,
+  verification: {
+    google: 'anUx-kzr2yTpxeAk15NqqJayQDa-wB1oki6YzVx85IE',
+  },
   icons: {
     shortcut: seoFavoriteIcon,
     icon: seoFavoriteIcon,
