@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Billy Huang's Blog]]></title>
+        <description><![CDATA[Welcome to this blog posts!]]></description>
+        <link>https://billy0402.github.io</link>
+        <image>
+            <url>https://billy0402.github.io/images/avatar.jpg</url>
+            <title>Billy Huang&apos;s Blog</title>
+            <link>https://billy0402.github.io</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 09 Mar 2024 04:52:03 GMT</lastBuildDate>
+        <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <pubDate>Sat, 09 Mar 2024 04:52:03 GMT</pubDate>
+        <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[2540. Minimum Common Value]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-2540</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-2540</guid>
+            <pubDate>Sat, 09 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3005. Count Elements With Maximum Frequency]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-3005</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-3005</guid>
+            <pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[First Post]]></title>
+            <description><![CDATA[What's this blog for.]]></description>
+            <link>https://billy0402.github.io/posts/first-post</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/first-post</guid>
+            <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
