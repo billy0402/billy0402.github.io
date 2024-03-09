@@ -36,6 +36,16 @@ export const metadata: Metadata = {
   verification: {
     google: 'anUx-kzr2yTpxeAk15NqqJayQDa-wB1oki6YzVx85IE',
   },
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        {
+          title: "Subscribe to Billy Huang's Blog RSS feed",
+          url: `${siteUrl}/rss.xml`,
+        },
+      ],
+    },
+  },
   icons: {
     shortcut: seoFavoriteIcon,
     icon: seoFavoriteIcon,
