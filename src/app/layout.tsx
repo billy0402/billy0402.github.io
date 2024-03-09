@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/Layout/Footer';
 import Navigation from '@/components/Layout/Navigation';
+import { siteUrl } from '@/fixtures/constants';
 import {
   seoDescription,
   seoFavoriteIcon,
   seoKeywords,
   seoSocialPreviewImage,
   seoTitle,
-  seoUrl,
 } from '@/fixtures/seo';
 import '@/styles/globals.scss';
 
@@ -29,7 +29,7 @@ const RootLayout = ({ children }: Props) => {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(seoUrl),
+  metadataBase: new URL(siteUrl),
   title: seoTitle,
   description: seoDescription,
   keywords: seoKeywords,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: seoUrl,
+    url: siteUrl,
     title: seoTitle,
     description: seoDescription,
     images: [seoSocialPreviewImage],
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     // @ts-ignore
-    url: seoUrl,
+    url: siteUrl,
     title: seoTitle,
     description: seoDescription,
     image: seoSocialPreviewImage,
