@@ -1,4 +1,20 @@
-# billy.github.io
+# billy0402.github.io
+
+[![GH Pages Deploy](https://github.com/billy0402/billy0402.github.io/workflows/Deploy%20Next.js%20site%20to%20Pages/badge.svg)](https://github.com/billy0402/billy0402.github.io/actions/workflows/deploy.yml 'GitHub Actions workflow status')
+[![License](https://img.shields.io/badge/License-MIT-blue)](?tab=MIT-1-ov-file 'Go to license section')
+
+[![Made with Node](https://img.shields.io/badge/dynamic/json?label=node&query=%24.engines%5B%22node%22%5D&url=https://raw.githubusercontent.com/billy0402/billy0402.github.io/main/package.json)](https://nodejs.org 'Go to Node.js homepage')
+[![Package - Typescript](https://img.shields.io/github/package-json/dependency-version/billy0402/billy0402.github.io/dev/typescript/main?logo=typescript&logoColor=white)](https://www.typescriptlang.org 'Go to TypeScript homepage')
+[![Package - React](https://img.shields.io/github/package-json/dependency-version/billy0402/billy0402.github.io/react/main?logo=react&logoColor=white)](https://react.dev 'Go to React homepage')
+[![Package - Nextjs](https://img.shields.io/github/package-json/dependency-version/billy0402/billy0402.github.io/next/main?logo=nextdotjs&logoColor=white)](https://nextjs.org 'Go to Nextjs homepage')
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/billy0402/nextjs-template)
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://billy0402.github.io/)
+
+</div>
 
 ## environment
 

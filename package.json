@@ -1,7 +1,24 @@
 {
-  "name": "nextjs-template",
+  "name": "billy-github-io",
+  "description": "Billy Huang's personal website",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "javascript",
+    "typescript",
+    "reactjs",
+    "nextjs"
+  ],
+  "author": "Billy Huang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billy0402/billy0402.github.io.git"
+  },
+  "homepage": "https://github.com/billy0402/billy0402.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/billy0402/billy0402.github.io/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -47,5 +64,8 @@
     "prettier": "3.1.1",
     "sass": "1.69.5",
     "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": "20.10.0"
   }
 }
