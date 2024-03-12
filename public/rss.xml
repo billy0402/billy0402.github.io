@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 Mar 2024 04:54:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Mar 2024 04:01:53 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 11 Mar 2024 04:54:31 GMT</pubDate>
+        <pubDate>Tue, 12 Mar 2024 04:01:53 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[1171. Remove Zero Sum Consecutive Nodes from Linked List]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-1171</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-1171</guid>
+            <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[791. Custom Sort String]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
