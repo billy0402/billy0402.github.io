@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
 import python from 'react-syntax-highlighter/dist/cjs/languages/prism/python';
-import atomDark from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
+import themeTomorrow from 'react-syntax-highlighter/dist/cjs/styles/prism/tomorrow';
 
 import type { Post } from '@/models/post';
 
@@ -40,12 +40,18 @@ const PostDetail = ({ post }: Props) => {
 
       return <p>{children}</p>;
     },
-    code: ({ className, children }) => {
-      const language = (className as string).replace('language-', '');
-      return (
-        <SyntaxHighlighter language={language} style={atomDark}>
+    code: ({ children, className, node, ...rest }) => {
+      const match = /language-(\w+)/.exec(className ?? '');
+      const language = match?.[1] ?? '';
+
+      return language ? (
+        <SyntaxHighlighter language={language} style={themeTomorrow}>
           {children as string}
         </SyntaxHighlighter>
+      ) : (
+        <code {...rest} className={className}>
+          {children}
+        </code>
       );
     },
   };
