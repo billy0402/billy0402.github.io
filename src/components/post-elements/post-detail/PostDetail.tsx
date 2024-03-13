@@ -3,6 +3,10 @@ import Image from 'next/image';
 
 import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
+
+import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math';
+
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
 import python from 'react-syntax-highlighter/dist/cjs/languages/prism/python';
@@ -58,7 +62,11 @@ const PostDetail = ({ post }: Props) => {
   return (
     <article className='post-detail'>
       <PostHeader {...post} />
-      <ReactMarkdown components={customComponents}>
+      <ReactMarkdown
+        remarkPlugins={[remarkMath]}
+        rehypePlugins={[rehypeKatex]}
+        components={customComponents}
+      >
         {post.content}
       </ReactMarkdown>
     </article>
