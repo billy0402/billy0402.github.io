@@ -13,4 +13,10 @@
       font-size: $size-8;
     }
   }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: $margin_small;
+  }
 }
