@@ -27,12 +27,11 @@ const PostDetail = ({ post }: Props) => {
       if (nodeFirstChild.tagName === 'img') {
         const image = nodeFirstChild;
         return (
-          <article className='post-detail__image'>
+          <article className='image-container' style={{ height: '300px' }}>
             <Image
               src={`/images/posts/${image.properties.src}`}
               alt={image.properties.alt}
-              width={600}
-              height={300}
+              fill
             />
           </article>
         );

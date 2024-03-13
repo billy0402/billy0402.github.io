@@ -41,10 +41,4 @@
 
     @include hoverColorTransition(blue);
   }
-
-  &__image {
-    margin: $size-4 auto;
-    max-width: 600px;
-    width: 100%;
-  }
 }
