@@ -1,0 +1,9 @@
+.btn {
+  padding: $padding_small/2 $padding_small;
+  border: unset;
+  border-radius: $border-radius_layout;
+  color: $color_white;
+  cursor: pointer;
+
+  @include hoverBackgroundTransition($color_accent);
+}

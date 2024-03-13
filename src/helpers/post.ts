@@ -42,6 +42,6 @@ export function getAllPosts() {
 
 export function getFeaturedPosts() {
   const allPosts = getAllPosts();
-  const featuredPosts = allPosts.filter((post) => post.isFeatured);
+  const featuredPosts = allPosts.filter((post) => post.isFeatured).slice(0, 3);
   return featuredPosts;
 }
