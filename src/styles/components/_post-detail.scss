@@ -12,6 +12,11 @@
     padding: $size-4;
   }
 
+  h2,
+  h3 {
+    margin: $margin_small 0;
+  }
+
   ol {
     list-style-type: decimal;
 
