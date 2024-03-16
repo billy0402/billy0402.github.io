@@ -5,6 +5,7 @@ import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
 
 import rehypeKatex from 'rehype-katex';
+import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -63,7 +64,7 @@ const PostDetail = ({ post }: Props) => {
     <article className='post-detail'>
       <PostHeader {...post} />
       <ReactMarkdown
-        remarkPlugins={[remarkMath]}
+        remarkPlugins={[[remarkGfm], remarkMath]}
         rehypePlugins={[rehypeKatex]}
         components={customComponents}
       >

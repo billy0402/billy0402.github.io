@@ -46,4 +46,23 @@
 
     @include hoverColorTransition(blue);
   }
+
+  code {
+    padding: 3px 5px;
+    border-radius: $radius-size_base;
+    background-color: $color_auxiliary;
+    color: $color_white;
+  }
+
+  table {
+    th,
+    td {
+      padding: $padding_small/2 $padding_small;
+      border: 1px solid $color_text;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  }
 }
