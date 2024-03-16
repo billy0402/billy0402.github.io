@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 Mar 2024 08:29:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Mar 2024 04:41:47 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 15 Mar 2024 08:30:31 GMT</pubDate>
+        <pubDate>Sat, 16 Mar 2024 04:41:47 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[525. Contiguous Array]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-525</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-525</guid>
+            <pubDate>Sat, 16 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[238. Product of Array Except Self]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
