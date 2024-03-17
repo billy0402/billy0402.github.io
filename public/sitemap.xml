@@ -72,6 +72,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://billy0402.github.io/posts/leetcode-57</loc>
+        <lastmod>2024-03-17T04:18:01.881Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://billy0402.github.io/posts/leetcode-791</loc>
         <lastmod>2024-03-11T04:54:21.586Z</lastmod>
         <changefreq>daily</changefreq>
