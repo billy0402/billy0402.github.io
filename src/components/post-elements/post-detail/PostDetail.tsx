@@ -34,7 +34,11 @@ const PostDetail = ({ post }: Props) => {
         return (
           <article className='image-container' style={{ height: '300px' }}>
             <Image
-              src={`/images/posts/${image.properties.src}`}
+              src={
+                image.properties.src.startsWith('/')
+                  ? `/images/posts/${image.properties.src}`
+                  : image.properties.src
+              }
               alt={image.properties.alt}
               fill
             />
