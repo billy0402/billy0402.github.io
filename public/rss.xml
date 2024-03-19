@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 Mar 2024 03:00:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Mar 2024 02:56:34 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 18 Mar 2024 03:00:26 GMT</pubDate>
+        <pubDate>Tue, 19 Mar 2024 02:56:34 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[621. Task Scheduler]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-621</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-621</guid>
+            <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[452. Minimum Number of Arrows to Burst Balloons]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
