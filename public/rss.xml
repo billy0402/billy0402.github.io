@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 Mar 2024 02:35:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Mar 2024 14:07:50 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 20 Mar 2024 02:35:17 GMT</pubDate>
+        <pubDate>Thu, 21 Mar 2024 14:07:50 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[206. Reverse Linked List]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-206</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-206</guid>
+            <pubDate>Thu, 21 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[1669. Merge In Between Linked Lists]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
