@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 Mar 2024 14:07:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Mar 2024 07:36:26 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 21 Mar 2024 14:07:50 GMT</pubDate>
+        <pubDate>Fri, 22 Mar 2024 07:36:26 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[234. Palindrome Linked List]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-234</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-234</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[206. Reverse Linked List]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
