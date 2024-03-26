@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Mar 2024 05:26:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 15:15:07 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Mar 2024 05:26:53 GMT</pubDate>
+        <pubDate>Tue, 26 Mar 2024 15:15:07 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[41. First Missing Positive]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-41</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-41</guid>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[442. Find All Duplicates in an Array]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
