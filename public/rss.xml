@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 Mar 2024 04:13:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Mar 2024 08:25:37 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 27 Mar 2024 04:13:17 GMT</pubDate>
+        <pubDate>Thu, 28 Mar 2024 08:25:37 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[2958. Length of Longest Subarray With at Most K Frequency]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-2958</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-2958</guid>
+            <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[713. Subarray Product Less Than K]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
