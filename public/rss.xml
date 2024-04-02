@@ -12,10 +12,17 @@
             <link>https://billy0402.github.io</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Apr 2024 02:56:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Apr 2024 02:39:59 GMT</lastBuildDate>
         <atom:link href="https://billy0402.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 01 Apr 2024 02:56:49 GMT</pubDate>
+        <pubDate>Tue, 02 Apr 2024 02:39:59 GMT</pubDate>
         <copyright><![CDATA[@ 2024 Billy Huang All rights reserved.]]></copyright>
+        <item>
+            <title><![CDATA[205. Isomorphic Strings]]></title>
+            <description><![CDATA[LeetCode Daily Question]]></description>
+            <link>https://billy0402.github.io/posts/leetcode-205</link>
+            <guid isPermaLink="true">https://billy0402.github.io/posts/leetcode-205</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[58. Length of Last Word]]></title>
             <description><![CDATA[LeetCode Daily Question]]></description>
