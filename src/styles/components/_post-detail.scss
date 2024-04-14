@@ -12,8 +12,34 @@
     padding: $size-4;
   }
 
+  ol {
+    list-style-type: decimal;
+
+    ol {
+      margin-left: 2em;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+
+    ul {
+      margin-left: 2em;
+    }
+  }
+
   p {
     color: $color-grey-800;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: underline;
+
+    @include hoverColorTransition(blue);
   }
 
   &__image {
