@@ -5,6 +5,7 @@ import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
+import python from 'react-syntax-highlighter/dist/cjs/languages/prism/python';
 import atomDark from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
 
 import type { Post } from '@/models/post';
@@ -12,6 +13,7 @@ import type { Post } from '@/models/post';
 import PostHeader from './PostHeader';
 
 SyntaxHighlighter.registerLanguage('js', js);
+SyntaxHighlighter.registerLanguage('python', python);
 
 type Props = {
   post: Post;
