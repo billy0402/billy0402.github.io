@@ -8,12 +8,16 @@ const Hero = () => {
       <Image
         className='hero__image'
         src={imgAvatar}
-        alt='A image showing Billy'
+        alt="Billy Huang's avatar"
         width={300}
         height={300}
       />
-      <h1>Hi, I&apos;m Billy Huang</h1>
-      <p>I&apos;m a software engineer from Taiwan.</p>
+      <h1>Hi 👋, I&apos;m Billy Huang.</h1>
+      <p>
+        A software engineer from Taiwan. 💻
+        <br />
+        I&apos;m skilled in web development using TypeScript and Python. 🧑‍💻
+      </p>
     </section>
   );
 };
