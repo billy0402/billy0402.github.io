@@ -5,6 +5,10 @@
   @extend %layout-container;
 
   &__items {
+    @extend %flex-row-between;
+  }
+
+  &__links {
     border-bottom: 0.5px solid $color_line;
 
     ul {
