@@ -40,8 +40,8 @@ export function getAllPosts() {
   return sortedPosts;
 }
 
-export function getFeaturedPosts() {
+export function getLatestPosts() {
   const allPosts = getAllPosts();
-  const featuredPosts = allPosts.filter((post) => post.isFeatured).slice(0, 3);
-  return featuredPosts;
+  const latestPosts = allPosts.slice(0, 5);
+  return latestPosts;
 }

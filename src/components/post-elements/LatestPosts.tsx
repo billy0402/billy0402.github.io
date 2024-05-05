@@ -7,13 +7,13 @@ type Props = {
   posts: Post[];
 };
 
-const FeaturedPosts = ({ posts }: Props) => {
+const LatestPosts = ({ posts }: Props) => {
   return (
     <section className='post-list'>
       <header className='post-list__header'>
-        <h2>Featured Posts</h2>
+        <h2>Latest Posts</h2>
         <Link className='link' href='/posts'>
-          &gt;&gt; See all posts
+          Read all posts
         </Link>
       </header>
       <PostGrid posts={posts} />
@@ -21,4 +21,4 @@ const FeaturedPosts = ({ posts }: Props) => {
   );
 };
 
-export default FeaturedPosts;
+export default LatestPosts;
