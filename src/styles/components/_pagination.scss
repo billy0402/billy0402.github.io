@@ -1,6 +1,7 @@
 .pagination {
   align-items: flex-end;
   flex-wrap: wrap;
+  font-size: 0.9rem;
 
   @extend %flex-row-between;
 
@@ -26,8 +27,8 @@
       @extend %flex-center;
       @include square(42px, $radius-size_base);
       @include hoverActiveColorBackgroundTransition(
-        $color_accent-light,
-        $color_white
+        $color_accent,
+        $color_accent-dark
       );
 
       > b {
@@ -53,9 +54,10 @@
       padding: 15px $padding_small;
       width: 90px;
       outline: none;
-      border: $color_accent-light solid 1px;
+      border: 1px solid $color_accent-light;
       border-radius: $radius-size_base;
-      color: $color_accent-light;
+      background-color: $color_accent-dark;
+      color: $color_accent;
       font-weight: 700;
       font-size: 1rem;
     }

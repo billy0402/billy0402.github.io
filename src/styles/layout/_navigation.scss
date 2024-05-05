@@ -1,43 +1,19 @@
 .navigation {
-  &__header {
-    justify-content: space-between;
-    padding: 0 10%;
-    width: 100%;
-    height: 6rem;
-    background-color: $color-grey-900;
+  margin-top: $margin_base;
+  font-size: 1.25rem;
 
-    @extend %flex-row-center;
+  @extend %layout-container;
+
+  &__items {
+    border-bottom: 0.5px solid $color_line;
 
     ul {
-      display: flex;
-      align-items: baseline;
-      margin: 0;
-      padding: 0;
-      list-style: none;
+      padding: $padding_small 0;
 
-      gap: 0.5rem;
-      @include pad-under-width() {
-        gap: unset;
-      }
-    }
+      @extend %flex-row;
 
-    li {
-      margin: 0 $size-4;
-    }
-
-    a {
-      color: $color-grey-100;
-      font-size: $size-5;
-
-      &:hover,
-      &:active,
-      &.active {
-        color: $color-grey-200;
-        text-decoration: underline;
-
-        @include pad-under-width() {
-          font-size: $size-4;
-        }
+      li {
+        @include layoutSpaceLeft();
       }
     }
   }

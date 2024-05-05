@@ -1,5 +1,9 @@
 .link {
   text-decoration: none;
 
-  @include hoverColorTransition($color_accent-light, $color_text);
+  @include hoverColorTransition($color_accent-dark, $color_accent-light);
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

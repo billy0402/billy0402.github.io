@@ -2,21 +2,22 @@ $color_white: #ffffff;
 $color_black: #000000;
 
 // 主色
-$color_primary: #87848b;
+$color_primary: #1a202c;
 
 // 強調色
-$color_accent: #3d0264;
-$color_accent-light: #440cae;
+$color_accent-dark: #7f8ea3;
+$color_accent: #cbd5e0;
+$color_accent-light: #eeeee7;
 
 // 輔助色
-$color_auxiliary: #343036;
-$color_auxiliary-light: #2f2b31;
+$color_auxiliary: #76c2af;
+$color_auxiliary-light: #8ae0ca;
 
 // 文字顏色
-$color_text: #403520;
+$color_text: #3b4259;
 
 // 邊框色彩
-$color_line: #ededed;
+$color_line: #2d3748;
 
 // 其他色彩
 $color_security: #5eb67d;
@@ -28,29 +29,3 @@ $color-gradient: $color_accent, $color_auxiliary;
 
 // 陰影
 $box-shadow_element: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
-
-$color-primary-50: #c8b3ce;
-$color-primary-100: #a07aaa;
-$color-primary-200: #884c97;
-$color-primary-300: #843897;
-$color-primary-400: #732392;
-$color-primary-500: #5a097a;
-$color-primary-600: #480264;
-$color-primary-700: #3d0264;
-
-$color-grey-50: hsl(265, 55%, 96%);
-$color-grey-100: hsl(265, 19%, 88%);
-$color-grey-200: hsl(265, 7%, 70%);
-$color-grey-300: hsl(265, 6%, 66%);
-$color-grey-400: hsl(265, 4%, 57%);
-$color-grey-500: hsl(265, 3%, 53%);
-$color-grey-600: hsl(265, 4%, 42%);
-$color-grey-700: hsl(265, 4%, 31%);
-$color-grey-800: hsl(276, 5%, 20%);
-$color-grey-900: hsl(280, 5%, 13%);
-
-$color-success-100: #a2f0bc;
-$color-success-500: #12bd4b;
-
-$color-error-100: #f1acc9;
-$color-error-500: #a10c4a;

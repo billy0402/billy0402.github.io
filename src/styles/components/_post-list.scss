@@ -1,0 +1,10 @@
+.post-list {
+  &__header {
+    justify-content: space-between;
+    margin-bottom: $margin_base;
+    padding-bottom: $padding_small;
+    border-bottom: 0.5px solid $color_line;
+
+    @extend %flex-row-center;
+  }
+}

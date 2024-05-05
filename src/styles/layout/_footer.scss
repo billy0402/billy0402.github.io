@@ -1,16 +1,9 @@
 .footer {
-  background-color: $color_auxiliary-light;
-  color: $color_white;
-  opacity: 0.9;
-
-  @include phone-width() {
-    font-size: 0.75rem;
-  }
-
   &__container {
+    padding-top: $padding_small;
     height: $height_footer;
+    border-top: 0.5px solid $color_line;
 
     @extend %layout-container;
-    @extend %flex-center;
   }
 }

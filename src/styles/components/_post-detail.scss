@@ -1,15 +1,10 @@
 .post-detail {
-  margin: $size-8 auto;
-  padding: $size-8;
-  max-width: 60rem;
-  width: 95%;
-  border-radius: 6px;
-  background-color: $color-grey-100;
-  font-size: $size-5;
-  line-height: $size-8;
+  color: $color_accent;
+  font-size: 1.25rem;
+  line-height: 2;
 
-  @include pad-under-width() {
-    padding: $size-4;
+  @include phone-width() {
+    padding: 0 $padding_small;
   }
 
   h2,
@@ -33,10 +28,6 @@
     }
   }
 
-  p {
-    color: $color-grey-800;
-  }
-
   strong {
     font-weight: bold;
   }
@@ -44,7 +35,7 @@
   a {
     text-decoration: underline;
 
-    @include hoverColorTransition(blue);
+    @include hoverColorTransition($color_auxiliary);
   }
 
   code {
@@ -58,7 +49,7 @@
     th,
     td {
       padding: $padding_small/2 $padding_small;
-      border: 1px solid $color_text;
+      border: 1px solid $color_line;
     }
 
     th {

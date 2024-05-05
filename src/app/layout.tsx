@@ -21,7 +21,7 @@ const RootLayout = ({ children }: Props) => {
     <html lang='en'>
       <body>
         <Navigation />
-        {children}
+        <main className='container'>{children}</main>
         <Footer />
       </body>
     </html>

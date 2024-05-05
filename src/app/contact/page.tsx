@@ -10,7 +10,7 @@ import imgAvatar from '@/public/images/avatar.jpg';
 
 const ContactPage: NextPage = () => {
   return (
-    <main className='container'>
+    <>
       <h1 className='margin-bottom' style={{ fontSize: '3rem' }}>
         Contact me
       </h1>
@@ -29,7 +29,7 @@ const ContactPage: NextPage = () => {
           <Image src={imgAvatar} alt='avatar' fill />
         </section>
       </article>
-    </main>
+    </>
   );
 };
 

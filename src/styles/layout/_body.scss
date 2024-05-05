@@ -4,15 +4,15 @@
 }
 
 body {
-  background-color: $color-grey-500;
-  color: $color_text;
+  background-color: $color_primary;
+  color: $color_accent-dark;
   // letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
 
 $title-font-size: (
-  '1': 2em,
+  '1': 3em,
   '2': 1.8em,
   '3': 1.6em,
   '4': 1.2em,
@@ -22,10 +22,15 @@ $title-font-size: (
 
 @each $name, $size in $title-font-size {
   h#{$name} {
-    color: $color_accent;
     font-weight: 500;
     font-size: $size;
     font-family: 'Oswald', 'Roboto', sans-serif;
+
+    @if $name == '1' or $name == '2' {
+      color: $color_white;
+    } @else {
+      color: $color_accent;
+    }
   }
 }
 

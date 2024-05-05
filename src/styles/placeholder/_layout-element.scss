@@ -1,6 +1,7 @@
 %layout-container {
   margin-right: auto;
   margin-left: auto;
+  max-width: 1024px;
   width: 80%;
 
   @include phone-width() {

@@ -6,11 +6,7 @@ import { getAllPosts } from '@/helpers/post';
 const AllPostsPage: NextPage = () => {
   const allPosts = getAllPosts();
 
-  return (
-    <main className='container'>
-      <AllPosts posts={allPosts} />
-    </main>
-  );
+  return <AllPosts posts={allPosts} />;
 };
 
 export const metadata: Metadata = {

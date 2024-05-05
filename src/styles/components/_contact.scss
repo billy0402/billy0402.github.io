@@ -1,13 +1,13 @@
 .contact {
-  @extend %flex-row-wrap;
+  @extend %flex-row;
+  @include phone-width() {
+    flex-flow: column-reverse;
+
+    gap: $margin_base;
+  }
 
   > section {
     flex: 1;
-
-    @include phone-width() {
-      flex-basis: 100%;
-      margin-top: $margin_small;
-    }
   }
 
   a {

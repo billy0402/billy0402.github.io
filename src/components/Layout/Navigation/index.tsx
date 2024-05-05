@@ -4,17 +4,21 @@ import Logo from './Logo';
 
 const Navigation = () => {
   return (
-    <header className='navigation__header'>
+    <header className='navigation'>
       <Link href='/'>
         <Logo />
       </Link>
-      <nav>
+      <nav className='navigation__items'>
         <ul>
           <li>
-            <Link href='/posts'>Posts</Link>
+            <Link className='link' href='/posts'>
+              Posts
+            </Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link className='link' href='/contact'>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

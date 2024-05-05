@@ -9,13 +9,13 @@ type Props = {
 
 const FeaturedPosts = ({ posts }: Props) => {
   return (
-    <section className='featured-posts'>
-      <h2>Featured Posts</h2>
-      <section className='featured-posts__actions'>
-        <Link className='btn' href='/posts'>
+    <section className='post-list'>
+      <header className='post-list__header'>
+        <h2>Featured Posts</h2>
+        <Link className='link' href='/posts'>
           &gt;&gt; See all posts
         </Link>
-      </section>
+      </header>
       <PostGrid posts={posts} />
     </section>
   );

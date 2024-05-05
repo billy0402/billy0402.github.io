@@ -1,29 +1,21 @@
 .post-header {
-  display: flex;
   align-items: flex-end;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: $size-8 0;
-  padding-bottom: $size-8;
-  border-bottom: 8px solid $color-primary-100;
+  margin-bottom: $margin_small;
+  padding-bottom: $padding_small;
+  border-bottom: 8px solid $color_line;
 
-  gap: 1rem;
+  @extend %flex-row-between;
   @include pad-under-width() {
     align-items: center;
     flex-direction: column-reverse;
-    margin: $size-4 0;
+
+    gap: 1rem;
   }
 
   h1 {
-    margin: 0;
-    color: $color-primary-500;
-    text-align: left;
-    font-size: $size-16;
-    line-height: initial;
-
     @include pad-under-width() {
       text-align: center;
-      font-size: $size-8;
+      font-size: 2rem;
     }
   }
 
@@ -31,6 +23,6 @@
     width: 200px;
     height: 120px;
 
-    object-fit: cover;
+    object-fit: contain;
   }
 }
