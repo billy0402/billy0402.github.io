@@ -3,6 +3,9 @@
   font-size: 1.25rem;
   line-height: 2;
 
+  @include color-scheme() {
+    color: $light_color_accent;
+  }
   @include phone-width() {
     padding: 0 $padding_small;
   }

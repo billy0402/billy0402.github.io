@@ -1,0 +1,5 @@
+@mixin color-scheme($theme: light) {
+  @media (prefers-color-scheme: $theme) {
+    @content;
+  }
+}

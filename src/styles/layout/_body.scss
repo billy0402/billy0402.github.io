@@ -9,6 +9,11 @@ body {
   // letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
+
+  @include color-scheme() {
+    background-color: $light_color_primary;
+    color: $light_color_accent-dark;
+  }
 }
 
 $title-font-size: (
@@ -28,8 +33,16 @@ $title-font-size: (
 
     @if $name == '1' or $name == '2' {
       color: $color_white;
+
+      @include color-scheme() {
+        color: $color_black;
+      }
     } @else {
       color: $color_accent;
+
+      @include color-scheme() {
+        color: $light_color_accent;
+      }
     }
   }
 }

@@ -6,6 +6,10 @@
     margin: $margin_small 0;
     color: $color-accent;
     font-size: 4rem;
+
+    @include color-scheme() {
+      color: $light_color-accent;
+    }
   }
 
   p {
