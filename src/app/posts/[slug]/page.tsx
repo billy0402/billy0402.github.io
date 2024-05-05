@@ -1,6 +1,6 @@
 import type { Metadata, NextPage } from 'next';
 
-import PostDetail from '@/components/post-elements/post-detail/PostDetail';
+import PostDetail from '@/components/post-elements/PostDetail';
 import { getPostData, getPostFileNames } from '@/helpers/post';
 
 type Props = {
