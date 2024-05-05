@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import type { NextPage } from 'next';
+import type { Metadata, NextPage } from 'next';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -31,6 +31,11 @@ const ContactPage: NextPage = () => {
       </article>
     </>
   );
+};
+
+export const metadata: Metadata = {
+  title: 'Contact me',
+  description: 'All my contact information!',
 };
 
 export default ContactPage;
