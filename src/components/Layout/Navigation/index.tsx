@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { routers } from '@/fixtures/routers';
+
 import Logo from './Logo';
 
 const Navigation = () => {
@@ -10,16 +12,13 @@ const Navigation = () => {
       </Link>
       <nav className='navigation__items'>
         <ul>
-          <li>
-            <Link className='link' href='/posts'>
-              Posts
-            </Link>
-          </li>
-          <li>
-            <Link className='link' href='/contact'>
-              Contact
-            </Link>
-          </li>
+          {routers.map(({ label, href }) => (
+            <li key={href}>
+              <Link className='link' href={href}>
+                {label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
