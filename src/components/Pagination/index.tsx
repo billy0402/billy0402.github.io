@@ -129,9 +129,9 @@ const PaginationComponent = ({ pagination }: Props) => {
         )}
       </section>
       <section className='pagination__control'>
-        <p>Items per page:</p>
         <form>
           <label htmlFor='pagination-show-number'>
+            <b>Items per page:</b>
             <select
               id='pagination-show-number'
               defaultValue={limit}
