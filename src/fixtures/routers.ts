@@ -12,4 +12,8 @@ export const routers: Router[] = [
     label: 'Contact',
     href: '/contact',
   },
+  {
+    label: 'RSS',
+    href: '/rss.xml',
+  },
 ];
